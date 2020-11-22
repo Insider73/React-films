@@ -1,0 +1,50 @@
+.header {
+  height: 6rem;
+  background-color: #27292D;
+
+  & > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: #27292d;
+  }
+
+  &-logo_img {
+    max-width: 80px;
+  }
+
+  .nav {
+    height: 100%;
+    .nav-list {
+      display: flex;
+      height: 100%;
+      list-style: none;
+      margin: 0;
+      &_item {
+        display: block;
+        height: 100%;
+        padding-bottom: 1rem;
+        transition: all .5s;
+        border-bottom: .2rem solid transparent;
+        .nav-list_link {
+          display: block;
+          height: 100%;
+          font-size: 1.5rem;
+          line-height: 6rem;
+          color: rgba(255, 255, 255, 0.85);
+          text-decoration: none;
+          transition: all .5s;
+          border-bottom: .2rem solid transparent;
+          &:hover, &--Active {
+            border-bottom: .2rem solid #00C2FF;
+          }
+        }
+        &:not(:last-child) {
+          margin-right: 5rem;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,13 @@
+.wrapper {
+  min-height: 100vh;
+  background: #f4f4f4;
+
+  &-main {
+    margin-bottom: 4rem;
+
+    & > .container {
+      min-height: calc(100vh - 18rem);
+      padding-bottom: 4rem;
+    }
+  }
+}

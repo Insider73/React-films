@@ -1,0 +1,35 @@
+.ErrorPage {
+  padding-top: 6rem;
+
+  &__Context {
+    text-align: center;
+  }
+
+  &__Description {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+
+  &__LinkContainer {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__Link {
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 2.5rem;
+    background-color: black;
+    color: #00C2FF;
+    border: .1rem solid #00C2FF;
+    transition: all .5s;
+
+    &:hover {
+      color: darken($color: #00C2FF, $amount: 15);
+      border: .1rem solid darken($color: #00C2FF, $amount: 15);
+    }
+  }
+}

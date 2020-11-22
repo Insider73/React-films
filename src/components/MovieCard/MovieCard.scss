@@ -1,0 +1,19 @@
+.movie-card {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+
+  &_poster {
+    width: 100%;
+  }
+
+  &_backdrop {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 26.56%, rgba(0, 0, 0, 0.9) 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  &_img {
+    width: 100%;
+  }
+}

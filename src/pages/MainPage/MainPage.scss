@@ -1,0 +1,14 @@
+.main-page {
+  .main-page_list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+    .main-page_item {
+      flex: 20% 1 1;
+      padding: 0 20px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+  }
+}
